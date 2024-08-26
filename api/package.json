@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "build": "echo 'No build step for API yet' && exit 0"
   },
   "keywords": [],
