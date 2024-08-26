@@ -1,4 +1,9 @@
 {
+  "name": "BlogPage",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd client && npm run build && cd .. && cd api && npm run build"
+  },
   "dependencies": {
     "dotenv": "^16.4.5"
   }
