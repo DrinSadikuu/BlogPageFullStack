@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'No build step for API yet' && exit 0"
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",

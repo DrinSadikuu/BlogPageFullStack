@@ -2,8 +2,8 @@
   "name": "BlogPage",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd client && npm install && npm run build && cd ..",
-    "start": "node api/index.js"  
+    "build": "cd client && npm ci && npm run build && cd ../api && npm ci",
+    "start": "node api/index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5"

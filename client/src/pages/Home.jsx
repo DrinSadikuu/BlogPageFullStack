@@ -7,11 +7,9 @@ function Home() {
   const [error, setError] = useState(null);
   const cat = useLocation().search;
 
-
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log(import.meta.env.VITE_API_URL);
         const res = await axios.get(
           `${import.meta.env.VITE_API_URL}/posts${cat}`,
           {

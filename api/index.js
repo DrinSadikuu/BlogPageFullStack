@@ -12,7 +12,7 @@ import path from "path";
 import fs from "fs";
 
 const app = express();
-const PORT = process.env.PORT || 8800; // Use environment variable for port
+const PORT = process.env.PORT || 8800; 
 
 app.use(express.json());
 app.use(cookieParser());
