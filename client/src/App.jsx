@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Write from "./pages/Write";
 import Single from "./pages/Single";
 import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 const Layout = () => {
   return (
@@ -56,7 +56,4 @@ function App() {
   );
 }
 
-
 export default App;
-
-
